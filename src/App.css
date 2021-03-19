@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+/* import "./App.css"; */
+
+body{
+background-color: #e1bee7 ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .brand-logo{
+  color: #000000;
+  text-shadow: 2px 2px 3px black;
+  font-size: 50px;
+} */
+
+.brand-logo{
+font-size: 40px;
+font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-wrapper{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.navbar-fixed{
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+ /* #side{
+   padding-left: 10px;
+ } */
+
+  
+
+.image{
+   max-width: 300px;
+   height: 300px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .card{
+   padding-top: 30px;
+   border-radius: 7px;
+  
+ }
+
+ .items{
+   margin-top: 50px;
+ }
+
+#naam{
+  font-weight: 500;
 }
+
+.mrp{
+  text-decoration: line-through;
+}
+
+.price{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.discount{
+  font-size: 13px;
+}
+
+.number{
+  font-size: 23px;
+  
+}
+
+#dank{
+  padding-right: 10px;
+}
+
+
+
+#mega{
+  margin-bottom: 70px;
+ 
+  
+}
+
+/* #helo{
+  max-height: 300px;
+} */
+
+.details{
+  padding: 100px;
+}
+
+#ttl{
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  min-height: 275px;
+  border-radius: 7px;
+}
+
+.product_amt{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 19px;
+}
+
+#cup{
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  min-height: 275px;
+  border-radius: 7px;
+}
+
+.couponnum{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 210px;
+  
+}
+
+#del{
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  min-height: 275px;
+  border-radius: 7px;
+}
+
+.delivery{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 210px;
+
+}
+
+
+.total{
+  font-weight: 500;
+  font-size: 24px;
+}
+
+
+.coupon{
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: -5px;
+}
+
+
+.feedback{
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: -5px;
+}
+
+.dank{
+  margin-top: 5px;
+}
+
+ .input-field input:focus + label {
+   color: #9c27b0 !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #9c27b0 !important;
+   box-shadow: 0 1px 0 0 #9c27b0 !important
+ }
+
+
+ .input-field textarea:focus + label {
+   color: #9c27b0 !important;
+ }
+ /* label underline focus color */
+ .row .input-field textarea:focus {
+   border-bottom: 1px solid #9c27b0 !important;
+   box-shadow: 0 1px 0 0 #9c27b0 !important
+ }
